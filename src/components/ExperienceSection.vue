@@ -1,23 +1,23 @@
 <template>
   <section 
     id="experiencia" 
-    class="py-24 px-4 sm:px-6 lg:px-8 bg-gray-50 dark:bg-gray-800 w-full relative"
+    class="py-12 sm:py-16 md:py-24 px-4 sm:px-6 lg:px-8 bg-gray-50 dark:bg-gray-800 w-full relative"
     ref="experienceSection"
   >
-    <div class="mx-auto">
+    <div class="mx-auto max-w-4xl">
       <div 
-        class="text-center mb-16 opacity-0 translate-y-10 transition-all duration-1000"
+        class="text-center mb-8 sm:mb-12 md:mb-16 opacity-0 translate-y-10 transition-all duration-1000"
         :class="{ 'opacity-100 translate-y-0': isVisible }"
       >
-        <h2 class="text-4xl md:text-5xl font-bold mb-4 text-gray-900 dark:text-white">
+        <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-2 sm:mb-4 text-gray-900 dark:text-white">
           Experiencia
         </h2>
-        <p class="text-xl text-gray-600 dark:text-gray-400">
+        <p class="text-base sm:text-lg md:text-xl text-gray-600 dark:text-gray-400 px-2">
           Mi trayectoria profesional en desarrollo web
         </p>
       </div>
 
-      <div class="space-y-8">
+      <div class="space-y-4 sm:space-y-6 md:space-y-8">
         <ExperienceCard
           v-for="(exp, index) in sortedExperience"
           :key="exp.id"
