@@ -1,0 +1,48 @@
+<div style="font-family: 'Inter', system-ui, -apple-system, sans-serif, Arial; font-size: 14px; line-height: 1.6; color: #111827; max-width: 600px; margin: 0 auto; padding: 20px;">
+  <div style="background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%); padding: 30px; border-radius: 8px 8px 0 0; text-align: center;">
+    <h1 style="color: #ffffff; margin: 0; font-size: 24px; font-weight: 600;">Nuevo Mensaje de Contacto</h1>
+    <p style="color: #e0e7ff; margin: 10px 0 0 0; font-size: 14px;">Has recibido un mensaje desde tu página personal</p>
+  </div>
+  
+  <div style="background-color: #f9fafb; padding: 30px; border: 1px solid #e5e7eb; border-top: none; border-radius: 0 0 8px 8px;">
+    <table role="presentation" style="width: 100%; border-collapse: collapse;">
+      <tr>
+        <td style="vertical-align: top; padding-right: 20px;">
+          <div style="width: 60px; height: 60px; background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 28px;">
+            👤
+          </div>
+        </td>
+        <td style="vertical-align: top; width: 100%;">
+          <div style="margin-bottom: 8px;">
+            <strong style="color: #111827; font-size: 18px; font-weight: 600;">{{from_name}}</strong>
+          </div>
+          <div style="color: #6b7280; font-size: 13px; margin-bottom: 4px;">
+            📧 {{from_email}}
+          </div>
+          <div style="color: #9ca3af; font-size: 12px; margin-bottom: 16px;">
+            🕐 {{date}} {{time}}
+          </div>
+          <div style="background-color: #ffffff; padding: 20px; border-radius: 6px; border-left: 4px solid #3b82f6; margin-top: 16px;">
+            <div style="color: #374151; font-size: 13px; font-weight: 600; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px;">
+              Asunto:
+            </div>
+            <div style="color: #111827; font-size: 16px; font-weight: 500; margin-bottom: 20px;">
+              {{subject}}
+            </div>
+            <div style="color: #374151; font-size: 13px; font-weight: 600; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px;">
+              Mensaje:
+            </div>
+            <p style="color: #111827; font-size: 15px; margin: 0; white-space: pre-wrap; word-wrap: break-word;">{{message}}</p>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+  
+  <div style="text-align: center; margin-top: 20px; padding-top: 20px; border-top: 1px solid #e5e7eb;">
+    <p style="color: #6b7280; font-size: 12px; margin: 0;">
+      Este mensaje fue enviado desde el formulario de contacto de tu página personal
+    </p>
+  </div>
+</div>
+
