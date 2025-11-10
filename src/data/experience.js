@@ -57,8 +57,8 @@ export const experience = [
     startDate: 'dic 2021',
     endDate: 'mar 2025',
     isDeveloper: true,
-    description: 'Diseño, desarrollo e implementación de sistemas críticos (adquisiciones, inventarios, agendamiento de citas); automatización nacional de recolección y entrega de resultados de laboratorio; administración de servidores Ubuntu/Windows (backups, políticas, soporte L1-L3); optimización de infraestructura con virtualización y redes corporativas (switching/routing) garantizando alta disponibilidad y seguridad.',
-    technologies: ['PHP', 'Laravel', 'Livewire', 'WebSocket', 'Vue.js', 'React.js', 'MySQL', 'SQL Server', 'Bash', 'Ubuntu Server', 'Windows Server', 'Git', 'Bootstrap', 'Tailwind CSS', 'Virtualización', 'Redes']
+    description: 'Diseño, desarrollo e implementación de sistemas críticos (adquisiciones, inventarios, agendamiento de citas); desarrollo de sistema integral para gestión de equipo médico e inventario; desarrollo y mantenimiento de sitios web del CIENI; automatización nacional de recolección y entrega de resultados de laboratorio; administración de servidores Ubuntu/Windows (backups, políticas, soporte L1-L3); optimización de infraestructura con virtualización y redes corporativas (switching/routing) garantizando alta disponibilidad y seguridad.',
+    technologies: ['PHP', 'Laravel', 'Livewire', 'WebSocket', 'Vue.js', 'React.js', 'MySQL', 'SQL Server', 'Bash', 'Ubuntu Server', 'Windows Server', 'Git', 'Bootstrap', 'Tailwind CSS', 'Virtualización', 'Redes', 'Gestión de inventario', 'CIENI']
   },
   {
     id: 9,
