@@ -1,10 +1,10 @@
 export const projects = [
   {
     id: 1,
-    title: 'Sistema de Inventario Hospitalario (INER)',
-    description: 'Sistema web para control de inventario y activos hospitalarios. Redujo 30% los tiempos de gestión mediante flujos de alta/baja, control de existencias, lotes y reportes automatizados.',
+    title: 'Sistema de Gestión de Equipo e Inventario (INER)',
+    description: 'Sistema integral web para gestión completa de equipo médico e inventario hospitalario. Incluye control de activos, flujos de alta/baja, control de existencias, lotes, reportes automatizados y actualizaciones en tiempo real mediante WebSockets. Redujo 30% los tiempos de gestión.',
     image: '/project-placeholder.jpg',
-    technologies: ['Laravel', 'Livewire', 'MySQL', 'Tailwind CSS'],
+    technologies: ['Laravel', 'Livewire', 'WebSocket', 'MySQL', 'Tailwind CSS'],
     featured: true
   },
   {
@@ -81,6 +81,14 @@ export const projects = [
   },
   {
     id: 9,
+    title: 'Sitios Web del CIENI (INER)',
+    description: 'Desarrollo y mantenimiento de sitios web del Centro de Investigación en Enfermedades Infecciosas (CIENI). Incluye gestión de contenido, actualizaciones dinámicas y funcionalidades interactivas para difusión de investigación y actividades académicas.',
+    image: '/project-placeholder.jpg',
+    technologies: ['Laravel', 'Livewire', 'WebSocket', 'MySQL', 'Tailwind CSS'],
+    featured: true
+  },
+  {
+    id: 10,
     title: 'Página personal / Portafolio',
     description: 'Sitio web personal desarrollado con Vue 3 y Tailwind CSS. Incluye secciones de experiencia, proyectos, formulario de contacto con EmailJS y reproductor embebido de Spotify.',
     image: '/project-placeholder.jpg',
