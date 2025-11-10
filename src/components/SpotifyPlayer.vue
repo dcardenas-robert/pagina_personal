@@ -9,6 +9,9 @@
           Intentando reproducción automática
         </span>
       </div>
+      <p class="mb-4 text-gray-600 dark:text-gray-400">
+        Les recomiendo la canción de jazz que más me gusta:
+      </p>
       <div class="rounded-xl overflow-hidden shadow-lg ring-1 ring-gray-200 dark:ring-gray-800 bg-black">
         <iframe
           ref="iframeRef"

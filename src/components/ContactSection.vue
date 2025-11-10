@@ -43,8 +43,7 @@
             <div class="flex items-start gap-4">
               <div class="w-10 h-10 rounded-lg bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 flex items-center justify-center text-xl">📍</div>
               <div class="text-gray-700 dark:text-gray-300">
-                <p class="font-medium">Calle Michoacán #103</p>
-                <p class="text-sm">Col. Miguel Hidalgo 1era sección, Interior 6</p>
+                <p class="font-medium">Col. Miguel Hidalgo</p>
                 <p class="text-sm">Ciudad de México, CDMX</p>
               </div>
             </div>
